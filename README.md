@@ -1,2 +1,3 @@
-# html_semantics
-Practice writing semantic html based on design from https://html5up.net
+# HTML5 semantics practice
+Rewriting html page to follow HTML5 semantics.
+Designs are based on https://html5up.net
