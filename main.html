@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Semantic HTML5 Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- https://openclassrooms.com/en/courses/2479876-build-your-website-with-html5-and-css3/2492444-practical-exercise-step-by-step-creation-of-a-website
+            Suggested that by placing the body content in a div wrapper
+            reason: it will include all the content,
+                    thus allow us to determine the page size easily 
+                    and center our website on the screen 
+    -->
+    <div class="wrapper">
+
+        <header>
+            <strong>Editorial</strong> adapted by Callista
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </header>
+
+        <main role="main">
+            <!-- 
+            Section is a generic grouping of content. 
+            Each section is grouped thematically.
+            Usually each section has one h element.
+
+            Content within a <section> element 
+            doesn’t necessarily need to make sense out of the context of the page
+            -->
+
+            <!-- Article is a complete self contained composition in a document
+                that could be distributed outside the context of the page
+            -->
+            <section>
+                <h1>Generic</h1>
+                <img src="images/pic11.jpg" alt="">
+
+                <p>
+                    Lorem ipsum dolor sit amet adipiscing bibendum
+                    sem orci tempus aliquet gravida, orci amet iaculis
+                    aptent blandit quam accumsan donec in facilisis,
+                    cursus ante curabitur aliquet condimentum tincidunt
+                    facilisis non cubilia lorem et pretium aliquam phasellus
+                    ipsum metus quisque auctor tristique donec nibh,
+                    praesent congue ultricies aenean ornare ligula sagittis
+                    proin sed vestibulum purus tempus aenean neque aliquam curae
+                    vivamus purus egestas ligula tincidunt nullam.
+                </p>
+            </section>
+
+            <hr>
+
+            <section>
+                <article>
+                    <h2>Interdum sed dapibus</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet adipiscing bibendum
+                        sem orci tempus aliquet gravida, orci amet iaculis
+                        aptent blandit quam accumsan donec in facilisis,
+                        cursus ante curabitur aliquet condimentum tincidunt
+                        facilisis non cubilia lorem et pretium aliquam phasellus
+                        ipsum metus quisque auctor tristique donec nibh,
+                        praesent congue ultricies aenean ornare ligula sagittis
+                        proin sed vestibulum purus tempus aenean neque aliquam curae
+                        vivamus purus egestas ligula tincidunt nullam.
+                    </p>
+                </article>
+
+                <hr>
+
+                <article>
+                    <h2>Lorem aliquam bibendum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet adipiscing bibendum
+                        sem orci tempus aliquet gravida, orci amet iaculis
+                        aptent blandit quam accumsan donec in facilisis,
+                        cursus ante curabitur aliquet condimentum tincidunt
+                        facilisis non cubilia lorem et pretium aliquam phasellus
+                        ipsum metus quisque auctor tristique donec nibh,
+                        praesent congue ultricies aenean ornare ligula sagittis
+                        proin sed vestibulum purus tempus aenean neque aliquam curae
+                        vivamus purus egestas ligula tincidunt nullam.
+                    </p>
+                </article>
+
+                <hr>
+
+                <article>
+                    <h2>Magna etiam veroeros</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet adipiscing bibendum
+                        sem orci tempus aliquet gravida, orci amet iaculis
+                        aptent blandit quam accumsan donec in facilisis,
+                        cursus ante curabitur aliquet condimentum tincidunt
+                        facilisis non cubilia lorem et pretium aliquam phasellus
+                        ipsum metus quisque auctor tristique donec nibh,
+                        praesent congue ultricies aenean ornare ligula sagittis
+                        proin sed vestibulum purus tempus aenean neque aliquam curae
+                        vivamus purus egestas ligula tincidunt nullam.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <div class="sidebar">
+            <div class="search-box">
+                <input name="search-query" type="search" placeholder="Search" spellcheck>
+            </div>
+
+            <nav>
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Generic</a></li>
+                    <li>Submenu</li>
+                    <ul>
+                        <li><a href="#">Lorem Ipsum</a></li>
+                        <li><a href="#">Lorem Dolor</a></li>
+                    </ul>
+                    <li><a href="#">Amet Lacina</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mini Article (according to original design) -->
+
+            <section>
+                <h2>Ante interdum</h2>
+                <article>
+                    <a href="#"><img src="images/pic07.jpg" alt=""></a>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+                </article>
+                <article>
+                    <a href="#"><img src="images/pic08.jpg" alt=""></a>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+                </article>
+                <article>
+                    <a href="#"><img src="images/pic09.jpg" alt=""></a>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+                </article>
+                <a href="#">More</a>
+            </section>
+
+            <section>
+                <h2>Get in touch</h2>
+                <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus,
+                    ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum.
+                    Sed nulla amet lorem feugiat tempus aliquam.
+                </p>
+                <address>
+                    <ul>
+                        <li><a href="mailto:information@untitled.tld">information@untitled.tld</a></li>
+                        <li><a href="tel:(000) 000-0000">(000) 000-0000</a></li>
+                        <li>1234 Somewhere Road #8254 <br>
+                            Nashville, TN 00000-0000</li>
+                    </ul>
+                </address>
+            </section>
+
+            <footer>
+                <p>
+                    &copy; Untitled. All rights reserved.
+                    Demo Images: <a href="https://unsplash.com">Unsplash</a>.
+                    Design: <a href="https://html5up.net">HTML5 UP</a>.
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
